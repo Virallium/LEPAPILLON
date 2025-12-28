@@ -1,0 +1,62 @@
+:root{
+    --bg-color:#1e1e2a;
+    --main-color:#1f65b9;
+    --secondary-color:#e0eaec;
+    --text-color:#ffffff;
+    --description-color:#cfd8dc;
+     --card-bg: #262637;
+}
+@media(max-width:1024px){
+    ul{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: var(--card-bg);
+        z-index: 10000;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .btns{
+        display:block;
+        position: relative;
+    }
+    #menu{
+        position:absolute;
+        cursor:pointer;
+    }
+    #close{
+        position:absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    .opennav{
+        right: 0;
+        transition: .7s ease-in-out;
+        -webkit-transition: .7s ease-in-out;
+        -moz-transition: .7s ease-in-out;
+        -ms-transition: .7s ease-in-out;
+        -o-transition: .7s ease-in-out;
+    }
+    .rgbafilter{
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left:0;
+        background: linear-gradient(rgba(0,0,0,0.3));
+        height: 100vh;
+        width: 100%;
+        cursor:pointer;
+    }
+}
+@media(max-width:557px){
+    .presentation h2{
+        position:relative;
+    }
+}
