@@ -145,6 +145,9 @@ main{
        justify-content: space-around;
        gap:2rem;
     }
+    #close{
+        display:none;
+    }
     ul{
         display: flex;
         justify-content: center;

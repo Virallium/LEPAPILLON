@@ -35,6 +35,7 @@
         right: 1rem;
         font-size: 1.5rem;
         cursor: pointer;
+        display:block;
     }
     .opennav{
         right: 0;
