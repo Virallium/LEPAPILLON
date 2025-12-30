@@ -215,7 +215,7 @@ main{
 form{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width:min(350px,70%);
     gap: 1rem;
 }
 input{
